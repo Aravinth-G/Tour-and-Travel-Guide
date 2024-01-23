@@ -1,0 +1,442 @@
+
+ 
+
+*{  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  background-image:url('blur.jpeg');
+  background-size: cover;
+  background-color: rgb(0,0,0,0.4);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+  width: 100%;
+  height: 400px; /* Set the desired height */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+   /* Apply the blur effect */
+  
+}
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 110vh;
+  background: rgba(255, 249, 249, 0.4);
+}
+.nav{
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  background: linear-gradient(rgba(247, 240, 240, 0.6), transparent);
+  z-index: 100;
+
+}
+.nav-logo p{
+  color: rgb(246, 243, 243);
+  font-size: 25px;
+  font-weight: 600;
+}
+.nav-menu ul{
+  display: flex;
+}
+.nav-menu ul li{
+  list-style-type: none;
+}
+.nav-menu ul li .link{
+  text-decoration: none;
+  font-weight: 500;
+  color: #fff;
+  padding-bottom: 15px;
+  margin: 0 25px;
+}
+.link:hover, .active{
+  border-bottom: 2px solid #fff;
+}
+.nav-button .btn{
+  width: 130px;
+  height: 40px;
+  font-weight: 500;
+  background: rgba(255, 255, 255, 0.4);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: .3s ease;
+}
+.btn:hover{
+  background: rgba(255, 255, 255, 0.3);
+}
+#registerBtn{
+  margin-left: 15px;
+}
+.btn.white-btn{
+  background: rgba(255, 255, 255, 0.7);
+}
+.btn.btn.white-btn:hover{
+  background: rgba(255, 255, 255, 0.5);
+}
+.nav-menu-btn{
+  display: none;
+}
+.form-box{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 512px;
+  height: 420px;
+  overflow: hidden;
+  z-index: 2;
+  
+  
+ 
+}
+.login-container{
+  position: relative;
+  left: -4px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  transition: .5s ease-in-out;
+ 
+}
+.register-container{
+  position: absolute;
+  right: -520px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  transition: .5s ease-in-out;
+}
+.top span{
+  color: #fff;
+  font-size: small;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+}
+.top span a{
+  font-weight: 500;
+  color: #fff;
+  margin-left: 5px;
+}
+header{
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  padding: 10px 0 30px 0;
+}
+.two-forms{
+  display: flex;
+  gap: 10px;
+}
+.input-field{
+  font-size: 15px;
+  background: rgba(56, 55, 55, 0.2);
+  color: #fff;
+  height: 50px;
+  width: 100%;
+  padding: 0 10px 0 45px;
+  border: none;
+  border-radius: 30px;
+  outline: none;
+  transition: .2s ease;
+}
+.input-field:hover, .input-field:focus{
+  background: rgba(8, 8, 8, 0.25);
+}
+::-webkit-input-placeholder{
+  color: #fff;
+}
+.input-box i{
+  position: relative;
+  top: -35px;
+  left: 17px;
+  color: #fff;
+}
+.submit{
+  font-size: 15px;
+  font-weight: 500;
+  color: rgb(252, 247, 247);
+  height: 45px;
+  width: 100%;
+  border: none;
+  border-radius: 30px;
+  outline: none;
+  background: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+  transition: .3s ease-in-out;
+}
+.submit:hover{
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 1px 5px 7px 1px rgba(15, 15, 15, 0.2);
+}
+.two-col{
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  font-size: small;
+  margin-top: 10px;
+}
+.two-col .one{
+  display: flex;
+  gap: 5px;
+}
+.two label a{
+  text-decoration: none;
+  color: #fff;
+}
+.two label a:hover{
+  text-decoration: underline;
+}
+@media only screen and (max-width: 786px){
+  .nav-button{
+      display: none;
+  }
+  .nav-menu.responsive{
+      top: 100px;
+  }
+  .nav-menu{
+      position: absolute;
+      top: -800px;
+      display: flex;
+      justify-content: center;
+      background: rgba(255, 255, 255, 0.2);
+      width: 100%;
+      height: 90vh;
+
+      transition: .3s;
+  }
+  .nav-menu ul{
+      flex-direction: column;
+      text-align: center;
+  }
+  .nav-menu-btn{
+      display: block;
+  }
+  .nav-menu-btn i{
+      font-size: 25px;
+      color: #fff;
+      padding: 10px;
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 50%;
+      cursor: pointer;
+      transition: .3s;
+  }
+  .nav-menu-btn i:hover{
+      background: rgba(247, 243, 243, 0.15);
+  }
+}
+@media only screen and (max-width: 540px) {
+  .wrapper{
+      min-height: 100vh;
+  }
+  .form-box{
+      width: 100%;
+      height: 500px;
+  }
+  .register-container, .login-container{
+      width: 100%;
+      padding: 0 20px;
+  }
+  .register-container .two-forms{
+      flex-direction: column;
+      gap: 0;
+  }
+}
+/* .App {
+text-align: center;
+display: flex;
+min-height: 100vh;
+align-items: center;
+justify-content: center;
+color:white;
+/* background-image: linear-gradient(79deg, #7439db, #C66FBC 48%, #F7944D); */
+/* background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
+background-image: url('https://png.pngtree.com/background/20230524/original/pngtree-beautiful-natural-scenery-at-the-place-where-waterfall-falls-in-fairy-picture-image_2712301.jpg');
+} */
+
+.auth-form-container, .login-form, .register-form {
+display: flex;
+flex-direction: column;
+position: relative;
+left: 290px;
+top: 50px;
+
+}
+.reg{
+  
+}
+
+@media screen and (max-width: 500px) {
+.auth-form-container {
+  padding: 5rem;
+  border: 5px solid rgb(253, 252, 252);
+  border-radius: 5px;
+  margin: 1rem;
+}
+}
+
+label {
+text-align: left;
+padding: 0.25rem 0;
+}
+
+input {
+margin: 0.5rem 0;
+padding: 1rem;
+border: none;
+border-radius: 10px;
+}
+
+button {
+border: none;
+background-color: rgb(250, 246, 246);
+padding: 20px;
+border-radius: 10px;
+cursor: pointer;
+color: #7439db;
+}
+
+.link-btn {
+background: none;
+color: rgb(255, 255, 255);
+text-decoration: underline;
+position: relative;
+top:170px;
+left:600px;
+}
+/* div {
+border: 1px solid gray;
+padding: 8px;
+} */
+body {
+color: white;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container{
+  min-height: 100vh;
+  background: #f3f3f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("blur (2).jpg") no-repeat center center/cover;
+}
+
+.container form{
+  width: 680px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+  border-radius: 15px;
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(10px);
+  flex-wrap: wrap;
+}
+
+.container form h1{
+  color: #fcfbfb;
+  font-weight: 500;
+  margin-top: 20px;
+  width: 500px;
+  text-align: center;
+}
+
+.container form input{
+  width: 290px;
+  height: 40px;
+  padding-left: 10px;
+  outline: none;
+  border: none;
+  font-size: 15px;
+  margin-bottom: 10px;
+  background: none;
+  border-bottom: 2px solid #f7f3f3;
+}
+
+.container form input::placeholder{
+  color: #ddd;
+}
+
+.container form #lastName,
+.container form #mobile{
+  margin-left: 20px;
+}
+
+.container form h4{
+  color: #f8f5f5;
+  font-weight: 300;
+  width: 600px;
+  margin-top: 20px;
+}
+
+.container form textarea{
+  background: none;
+  border: none;
+  border-bottom: 2px solid #fcf5f5;
+  color: #f3ecec;
+  font-weight: 200;
+  font-size: 15px;
+  padding: 10px;
+  outline: none;
+  min-width: 600px;
+  max-width: 600px;
+  min-height: 80px;
+  max-height: 80px;
+}
+
+textarea::-webkit-scrollbar{
+  width: 1em;
+}
+
+textarea::-webkit-scrollbar-thumb{
+  background-color: rgba(249, 239, 239, 0.713);
+}
+
+.container form #button{
+  border: none;
+  background: #fff;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #f4eeee;
+  width: 100px;
+  padding: 1;
+  margin-right: 500px;
+  margin-bottom: 30px;
+  transition: 0.3s;
+  
+}
+
+.container form #button:hover{
+  opacity: 0.7px;
+}
+  
+
+
+

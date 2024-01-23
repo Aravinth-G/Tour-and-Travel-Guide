@@ -1,0 +1,18 @@
+.began{
+
+    top:10px;
+    text-align:center;
+    text-decoration-color: red;
+    left:30%;
+    text-overflow: clip;
+    transform: rotate();
+    /* text-transform: uppercase; */
+    text-shadow: 0cqmax;
+    text-rendering: initial;
+    text-size-adjust: 10px;
+   
+}
+
+/* CSS for the "Began" button */
+/* You can add this in your external CSS file or in a <style> tag in your component */
+

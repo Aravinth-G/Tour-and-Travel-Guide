@@ -1,0 +1,73 @@
+ 
+
+.contact {
+   
+  background-image: url('image.jpg');
+  position: relative;
+ background-size: cover;
+ background-position: center;
+ min-height: 100vh;
+
+ justify-content: center;
+ align-items: center;
+
+
+
+}
+  
+  form {
+    position: relative;
+    background-color: rgba(5, 5, 5, 0.9);
+    padding: 20px;
+    top:60px;
+    left:570px;
+    color: rgb(249, 239, 239) ;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+  
+
+  }
+  
+  /* Add more specific styles for form elements as needed */
+   label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+    
+
+  
+.form-control {
+  border: 1px solid #cfd1d8;
+  border-radius: 2px;
+  font-size: 0.825rem;
+  background: #ffffff;
+  color: #2e323c;
+  margin-bottom: 10px; /* Adjust as needed */
+}
+
+/* Styling the buttons */
+.btn {
+  margin-right: 10px; /* Adjust as needed */
+}
+
+/* Additional specific styles for the form layout or other elements in the Admin page can be added here */

@@ -1,0 +1,95 @@
+ 
+ /* .admin.page {
+    display: flex;
+     justify-content: center;
+    align-items: center; 
+    height: 100vh; 
+    background-color: #f2f2f2;
+
+  }   */
+  /*
+ 
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+ 
+  table {
+    width: 80%; 
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    text-align: left;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+
+  .btn-danger {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+   */
+
+
+
+   /* Admindashboard with chart */
+
+  /* Admindashboard.css */
+  .admin-page {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    background-color: #f0e6e6;
+  }
+  
+  .sidebar {
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    color: #fff;
+    padding-top: 20px;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: #fff;
+    text-decoration: underline;
+    padding: 10px;
+  }
+  
+  .sidebar a:hover {
+    background-color: #555;
+    color: blue;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
+  
+  .chart-container {
+    width: 100%;
+    max-width: 800px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .chart-container canvas {
+    width: 100% !important;
+  }
+  

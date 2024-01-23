@@ -1,0 +1,85 @@
+/* Main layout styles */
+.column {
+  float: left;
+  width: 24.33%;
+  padding: 10px;
+  box-sizing: border-box;
+  /* Include padding in the width */
+}
+
+.column img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.column h1,
+.column h2 {
+  color: black;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.column h2 {
+  color: rgb(17, 0, 255);
+  position: relative;
+}
+
+/* Custom1-Card1 styles */
+.custom1-card1 {
+  width: 78rem;
+  margin: 20px;
+  border-radius: 15px;
+}
+
+.custom1-card1:hover {
+  transform: scale(1.05);
+}
+
+.custom1-card1-img {
+  border-radius: 40px;
+  margin-left: 18px;
+  height: 200px;
+  width: 265px;
+}
+
+.custom1-card1-body {
+  padding: 1.25rem;
+}
+
+.custom1-card1-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.custom1-card1-text {
+  color: #666;
+}
+
+.custom1-btn {
+  margin-top: 88px;
+  background-color: #00d9ff;
+  color: #fff;
+  border: none;
+  padding: 0.375rem 0.75rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 50%;
+}
+
+.custom1-btn:hover {
+  background-color: #009eb3;
+}
+
+/* Miscellaneous styles */
+.naane {
+  display: inline-flex;
+  padding-top: 1%;
+}
+.img1 {
+  border-radius: 20px; /* Apply border-radius to the image */
+}
+
+.h1 {
+  color: gold;
+  border-radius: 8%; /* Apply border-radius to the h4 element */
+}

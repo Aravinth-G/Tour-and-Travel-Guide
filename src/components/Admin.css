@@ -1,0 +1,61 @@
+
+.Auth1-form-container1 {
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;*/
+  background: url("https://img.freepik.com/free-photo/flat-lay-workstation-with-copy-space-laptop_23-2148430879.jpg?w=1380&t=st=1704341527~exp=1704342127~hmac=161a6a5c8efa8a0fb39a8f2da6dcdf1ac2649fbb42fb01b829f8bb1d6ec40078")no-repeat center fixed;
+  background-size: 1700px; 
+  width:1000vh;
+  height:100vh;
+  margin-bottom:30px;
+  align-items: center;
+
+
+}
+
+.Auth1-form1 {
+  width: 420px;
+  box-shadow: rgb(255, 255, 255) 1px 1px 10px;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  border-radius: 15px;
+  background-color:none;
+}
+
+.Auth1-form-content1 {
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+.Auth1-form-title1 {
+  text-align: center;
+
+  width: 100%;
+  padding: 32px 50px;
+  margin: 1px 0;
+     margin-top: 5em;
+  margin-bottom: 2em;
+ 
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top:60px;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+}
+
+.imgtag1 {
+  margin: -10px 90px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.nnun11{
+  text-align: center;
+} 

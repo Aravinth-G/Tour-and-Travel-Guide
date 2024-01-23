@@ -1,0 +1,43 @@
+/* Admindashboard.css */
+.admin-page {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    background-color: #f0e6e6;
+    align-items: center;
+  }
+  
+  .sidebar1 {
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    color: #fff;
+    padding-top: 20px;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
+  
+  .sidebar1 a {
+    display: block; /* Changed from 'inline' to 'block' */
+    color: #fff;
+    text-decoration: none; /* Changed 'underline' to 'none' */
+    padding: 10px;
+    margin-bottom: 20px; /* Changed '%' to 'px' */
+  }
+  
+  .sidebar1 a:hover {
+    background-color: #555;
+    color: blue;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
+  

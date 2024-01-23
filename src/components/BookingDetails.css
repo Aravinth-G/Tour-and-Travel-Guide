@@ -1,0 +1,43 @@
+/* Main container styles */
+.admin.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f2f2f2;
+  border: 2px solid red; /* Simplified border property */
+  padding: 100px 50px 25px 25px; /* Updated padding values */
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.btn-danger {
+  padding: 8px 12px; /* Adjust padding for button appearance */
+  font-size: 14px;
+}
+
+.centered-margin {
+  /* Your styles for the .centered-margin class */
+  width: 10%; /* This width might be too narrow, adjust as needed */
+  padding: 100px 50px 25px 25px; /* Adjust padding values */
+  margin-top: 25px;
+}
